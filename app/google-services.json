@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "697982249496",
+    "firebase_url": "https://calculator-kenya-f6382.firebaseio.com",
+    "project_id": "calculator-kenya-f6382",
+    "storage_bucket": "calculator-kenya-f6382.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697982249496:android:610880757c57fedf",
+        "android_client_info": {
+          "package_name": "com.automata.calculatorkenya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697982249496-to660vui9v4u6k58865un894v7jnokq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlx0YXWDgg43t9HmeXOvkLe3RKDo9BR5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

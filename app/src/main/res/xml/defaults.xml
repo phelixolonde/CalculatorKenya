@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>base_url</key>
+        <value>https://calculator.co.ke/math.php</value>
+    </entry>
+    <entry>
+        <key>update_mandatory</key>
+        <value>false</value>
+    </entry>
+
+</defaultsMap>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.automata.calculatorkenya">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".CalculatorKenya"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".IncomeTax"
+            android:label="Income Tax-PAYE " />
+        <activity
+            android:name=".MPesa"
+            android:label="MPesa Cost Calculator" />
+        <activity
+            android:name=".Airtel"
+            android:label="Airtel Money Cost Calculator" />
+        <activity
+            android:name=".Mshwari"
+            android:label="M-Shwari Loan Calculator" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HELB"
+            android:label="HELB Loan Calculator" />
+        <activity
+            android:name=".KPLCPost"
+            android:label="KPLC Postpaid Bill" />
+        <activity
+            android:name=".KPLCPre"
+            android:label="KPLC Prepaid Tokens" />
+        <activity
+            android:name=".Water"
+            android:label="Nairobi Water Bill" />
+        <activity
+            android:name=".TSC"
+            android:label="TSC Teachers Salary" />
+        <activity
+            android:name=".Civil"
+            android:label="Civil Servants Salary" />
+        <activity
+            android:name=".Converter"
+            android:label="Central Bank Currency Converter" />
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".Motor"
+            android:label="Motor Insurance"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
